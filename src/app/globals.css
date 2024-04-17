@@ -3,3 +3,22 @@
 @tailwind utilities;
 
 
+
+
+body{
+  @apply bg-primaryColor
+}
+
+/* navbar style */
+.navbar{
+  @apply max-w-5xl mx-auto flex justify-between items-center 
+}
+.locationAndFavoriteListGroup{
+  @apply flex justify-center items-center gap-5
+}
+.currentLocation{
+  @apply text-xl font-bold
+}
+.favoriteListButton{
+  @apply text-xl font-bold bg-secondaryColor px-5 py-2 rounded-full flex justify-center items-center gap-2 text-primaryColor
+}
